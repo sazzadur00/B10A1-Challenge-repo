@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Azeret Mono", monospace;
+}
+
+/* banner section style starts here*/
+.group-pic {
+    position: absolute;
+    width: 240.28px;
+    height: 240px;
+    margin-top: 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 840px;
+}
+
+.banner-container {
+    width: 1920px;
+    height: 652;
+    background-image: url(../images/Hero-bg.png);
+    margin: 0 auto;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.banner-content h1 {
+    font-size: 52px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 76px;
+    margin-top: 60px;
+
+}
+
+.banner-content p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 24px;
+    line-height: 20px;
+}
+
+.btn {
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+/*main section start here*/
+
+.why-web-development {
+    height: 1140px;
+    width: 1095px;
+    margin: 0 auto;
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin-top: 74px;
+}
+
+.main-content {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 26px;
+}
+
+.main-content h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.main-content p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*frame start*/
+
+.frame-container {
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    display: flex;
+    background-color: white;
+}
+
+
+.leftside-content {
+    width: 70%;
+    display: flex;
+    padding: 48px;
+    flex-direction: column;
+
+}
+
+.leftside-content h2 {
+    width: 477px;
+    height: 72px;
+}
+
+.leftside-content p {
+    width: 468px;
+    height: 52px;
+}
+
+.rightside-content {
+    width: 30%;
+    padding: 48px;
+
+}
+
+.learn-btn {
+    width: 150px;
+    height: 48px;
+    padding: 12px 20px 12px 20px;
+    margin: 32px 0px;
+    cursor: pointer;
+}
+
+
+
+/*inspiration section start here*/
+
+.inspiration {
+    width: 1140px;
+    height: 777px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.inspiration-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.inspiration-content h1 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+.inspiration-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.video-ins {
+    width: 1140px;
+    height: 614px;
+    margin-top: 48px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+.inspiration-video {
+    padding: 32px;
+    border-radius: 16px;
+}
+
+/*current target style start here*/
+.current-target-container {
+    width: 1140px;
+    height: 463px;
+    margin-top: 200px;
+    margin-left: 390px;
+}
+
+.target-content {
+    width: 1140px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.target-content h1 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+.target-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+/*frame-style*/
+
+.target-pic {
+    width: 364px;
+    height: 300px;
+    margin: 32px 0px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 20;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-top: 24px;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 8px;
+}
+
+.target-btn {
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 42px;
+    color: rgb(13, 19, 33);
+}
+
+.img-one {
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+}
+
+.target-pic-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-3 {
+    background: rgba(255, 223, 0, 0.05);
+    width: 364px;
+    height: 300px;
+}
+
+.bg-2 {
+    background: rgba(0, 76, 232, 0.05);
+    width: 364px;
+    height: 300px;
+}
+
+/*support style*/
+.support {
+    width: 1140px;
+    height: 314px;
+    margin-left: 390px;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url(../images/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 16PX;
+    background-blend-mode: overlay;
+}
+
+.support-content {
+    width: 1044px;
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.support-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 64px;
+    color: rgb(255, 255, 255);
+}
+
+.support-content p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 15px;
+}
+
+.input-item {
+    width: 448px;
+    height: 48px;
+    border-radius: 8PX;
+    color: rgba(13, 19, 33, 0.4);
+    border: none;
+    margin-top: 20px;
+}
+
+.input-item-2 {
+    width: 120px;
+    height: 48px;
+    border-radius: 8PX;
+    border: none;
+    margin-top: 20px;
+}
+
+/*footer*/
+.last-page {
+    width: 1920px;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.last-work {
+    width: 1140px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    margin-left: 390px;
+}
+
+.last-work h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
