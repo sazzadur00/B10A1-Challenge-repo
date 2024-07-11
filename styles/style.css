@@ -42,16 +42,17 @@ body {
     font-weight: 800;
     text-align: center;
     line-height: 76px;
-    margin-top: 60px;
+    margin-top: 90px;
 
 }
 
 .banner-content p {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
     padding: 24px;
     line-height: 20px;
+    margin-top: 20px;
 }
 
 .btn {
@@ -64,6 +65,7 @@ body {
     font-size: 20px;
     align-items: center;
     cursor: pointer;
+    margin-top: 30px;
 }
 
 /*main section start here*/
@@ -94,7 +96,7 @@ body {
 
 .main-content p {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 /*frame start*/
@@ -124,6 +126,7 @@ body {
 .leftside-content p {
     width: 468px;
     height: 52px;
+    font-weight: 300;
 }
 
 .rightside-content {
@@ -167,7 +170,7 @@ body {
 
 .inspiration-content p {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 26px;
     margin-top: 24px;
 }
@@ -211,7 +214,7 @@ body {
 
 .target-content p {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 26px;
 }
 
@@ -236,7 +239,7 @@ body {
 
 .description {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 18px;
     margin-top: 8px;
 }
@@ -307,7 +310,7 @@ body {
 .support-content p {
     color: rgb(255, 255, 255);
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 26px;
     margin-top: 15px;
 }
